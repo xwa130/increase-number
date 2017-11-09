@@ -1,0 +1,29 @@
+{
+  "name": "take-home-test-Ecoation",
+  "version": "1.0.0",
+  "license": "ISC",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "build": "./node_modules/.bin/babel server.js -o server-compiled.js",
+    "start": "./node_modules/.bin/nodemon server-compiled.js"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.12.1"
+  }
+}

@@ -1,0 +1,4 @@
+/node_modules
+/frontend/assets
+/frontend/node_modules
+server-compiled.js
