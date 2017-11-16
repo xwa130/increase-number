@@ -12,7 +12,7 @@ In this app, I used `vue` as my front end framework, `vue-router` as a front end
 Run the following commands: 
 ```
 git clone git@github.com:xwa130/increase-number.git && cd increase-number && npm i
-cd frontend && npm i && npm build
-cd ../ && npm build && npm start
+cd frontend && npm i && npm run build
+cd ../ && npm run build && npm start
 ```
 Then go to `localhost:3000`, enjoy!
